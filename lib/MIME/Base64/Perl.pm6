@@ -20,8 +20,7 @@ class MIME::Base64::Perl {
         for @packs -> $p {
             my @binary = $p.comb(/./);
             my @bases  = 2 X** ((^$p.chars).reverse);
-
-            my $index = ( [+] (@binary >>*<< @bases) );
+            my $index  = ( [+] (@binary >>*<< @bases) );
             $output ~= @table[$index];
         }
 
