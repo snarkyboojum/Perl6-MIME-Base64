@@ -2,8 +2,8 @@ Two libraries are available:
 
   MIME::Base64
 
-  Implements encoding and decoding to and from base64 using underlying an
-  underlying parrot library
+  Implements encoding and decoding to and from base64 using an underlying
+  parrot library
 
   MIME::Base64::Perl
 
