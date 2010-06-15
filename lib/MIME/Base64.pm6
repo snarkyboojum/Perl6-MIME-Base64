@@ -6,7 +6,7 @@ class MIME::Base64 {
     method encode_base64(Str $str) {
         my $encoded-str = Q:PIR {
             .local pmc encode
-            encode = get_root_global ['parrot'; 'MIME'], 'encode_base64'
+            encode = get_root_global ['parrot'; 'MIME'; 'Base64'], 'encode_base64'
             $P0 = find_lex '$str'
             %r = encode($P0)
         };
@@ -17,7 +17,7 @@ class MIME::Base64 {
     method decode_base64(Str $str) {
         my $decoded-str = Q:PIR {
             .local pmc decode
-            decode = get_root_global ['parrot'; 'MIME'], 'decode_base64'
+            decode = get_root_global ['parrot'; 'MIME'; 'Base64'], 'decode_base64'
             $P0 = find_lex '$str'
             %r = decode($P0)
         };
