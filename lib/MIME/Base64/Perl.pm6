@@ -8,8 +8,10 @@ class MIME::Base64::Perl {
 
         # 6 bit packs padded with 0s at the LSB
         my $bit-string  = $str.comb(/./)>>.ord>>.fmt('%08b').join();
-        my $bit-padding =  6 - $bit-string.chars % 6;
-        $bit-string ~= '0' x $bit-padding;
+        my $bit-padding =  $bit-string.chars % 6;
+        if $bit-padding != 0 {
+            $bit-string ~= '0' x (6 - $bit-padding);
+        }
 
         my @packs = $bit-string.comb(/....../);
 
@@ -24,8 +26,10 @@ class MIME::Base64::Perl {
         }
 
         # pad with = chars if needed
-        my $padding = 4 - $output.chars % 4;
-        $output ~= '=' x $padding;
+        my $padding = $output.chars % 4;
+        if $padding != 0 {
+            $output ~= '=' x (4 - $padding);
+        }
 
         return $output;
     }
@@ -35,6 +39,3 @@ class MIME::Base64::Perl {
     }
 
 }
-
-my MIME::Base64::Perl $mime .= new;
-say $mime.encode_base64("Abc");
