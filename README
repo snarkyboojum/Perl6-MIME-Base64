@@ -1,0 +1,11 @@
+Two libraries are available:
+
+  MIME::Base64
+
+  Implements encoding and decoding to and from base64 using underlying an
+  underlying parrot library
+
+  MIME::Base64::Perl
+
+  A horribly inefficient work in progress for doing the same thing as
+  MIME::Base64 in pure Perl 6 (what's currently available in Rakudo anyway)
