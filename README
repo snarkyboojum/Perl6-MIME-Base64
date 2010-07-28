@@ -1,11 +1,35 @@
+=begin pod
+
+=head1 NAME
+
+MIME::Base64 - A Perl6 implementation of MIME::Base64 and friends
+
+=head1 DESCRIPTION
+
 Two libraries are available:
 
-  MIME::Base64
+MIME::Base64
 
-  Implements encoding and decoding to and from base64 using an underlying
-  parrot library
+Implements encoding and decoding to and from base64 using an underlying
+parrot library. This is a relatively fast implementation.
 
-  MIME::Base64::Perl
+MIME::Base64::Perl
 
-  A horribly inefficient work in progress for doing the same thing as
-  MIME::Base64 in pure Perl 6 (what's currently available in Rakudo anyway)
+A horribly inefficient work in progress for doing the same thing as
+MIME::Base64 in pure Perl 6 (what's currently available in Rakudo anyway).
+
+=head1 STATUS
+
+The Perl 6 version of MIME::Base64 is an experiment in Perl 6 and will
+be replaced by a correct version when pack/unpack is available in the
+Perl 6 core.
+
+=head1 LICENSE and COPYRIGHT
+
+Use these files at your risk and without warranty. This module may be used
+under the terms of the Artistic License 2.0
+
+Written by Adrian White.
+
+=cut
+
