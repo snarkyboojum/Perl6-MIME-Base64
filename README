@@ -1,26 +1,20 @@
 NAME
 
-MIME::Base64 - A Perl6 implementation of MIME::Base64 and friends
+MIME::Base64 - A Perl6 implementation of MIME::Base64
 
 DESCRIPTION
 
-Two libraries are available:
+A single module is available:
 
   MIME::Base64
 
     Implements encoding and decoding to and from base64 using an underlying
     parrot library. This is a relatively fast implementation.
 
-  MIME::Base64::Perl
-
-    A horribly inefficient work in progress for doing the same thing as
-    MIME::Base64 in pure Perl 6 (what's currently available in Rakudo anyway).
-
 STATUS
 
-The Perl 6 version of MIME::Base64 is an experiment in Perl 6 and will
-be replaced by a correct version when pack/unpack is available in the
-Perl 6 core.
+A pure Perl 6 version of MIME::Base64 will be included pack/unpack is available
+in the Perl 6 core.
 
 LICENSE and COPYRIGHT
 
