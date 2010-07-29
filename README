@@ -1,10 +1,8 @@
-=begin pod
-
-=head1 NAME
+NAME
 
 MIME::Base64 - A Perl6 implementation of MIME::Base64 and friends
 
-=head1 DESCRIPTION
+DESCRIPTION
 
 Two libraries are available:
 
@@ -18,18 +16,15 @@ MIME::Base64::Perl
 A horribly inefficient work in progress for doing the same thing as
 MIME::Base64 in pure Perl 6 (what's currently available in Rakudo anyway).
 
-=head1 STATUS
+STATUS
 
 The Perl 6 version of MIME::Base64 is an experiment in Perl 6 and will
 be replaced by a correct version when pack/unpack is available in the
 Perl 6 core.
 
-=head1 LICENSE and COPYRIGHT
+LICENSE and COPYRIGHT
 
 Use these files at your risk and without warranty. This module may be used
-under the terms of the Artistic License 2.0
+under the terms of the Artistic License 2.0.
 
 Written by Adrian White.
-
-=cut
-
