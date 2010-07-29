@@ -13,8 +13,8 @@ A single module is available:
 
 STATUS
 
-A pure Perl 6 version of MIME::Base64 will be included pack/unpack is available
-in the Perl 6 core.
+A pure Perl 6 version of MIME::Base64 will be included when pack/unpack is
+available in the Perl 6 core.
 
 LICENSE and COPYRIGHT
 
