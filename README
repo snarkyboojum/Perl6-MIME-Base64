@@ -6,15 +6,15 @@ DESCRIPTION
 
 Two libraries are available:
 
-MIME::Base64
+  MIME::Base64
 
-Implements encoding and decoding to and from base64 using an underlying
-parrot library. This is a relatively fast implementation.
+    Implements encoding and decoding to and from base64 using an underlying
+    parrot library. This is a relatively fast implementation.
 
-MIME::Base64::Perl
+  MIME::Base64::Perl
 
-A horribly inefficient work in progress for doing the same thing as
-MIME::Base64 in pure Perl 6 (what's currently available in Rakudo anyway).
+    A horribly inefficient work in progress for doing the same thing as
+    MIME::Base64 in pure Perl 6 (what's currently available in Rakudo anyway).
 
 STATUS
 
