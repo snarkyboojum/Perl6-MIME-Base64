@@ -1,6 +1,6 @@
 NAME
 
-MIME::Base64 - A Perl6 implementation of MIME::Base64
+MIME::Base64 - Encoding and decoding Base64 ASCII strings. A Perl6 implementation of MIME::Base64
 
 DESCRIPTION
 
