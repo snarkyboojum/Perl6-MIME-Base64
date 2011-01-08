@@ -1,0 +1,8 @@
+{
+    "name"        : "MIME::Base64",
+    "version"     : "*",
+    "description" : "A Perl6 implementation of MIME::Base64",
+    "depends"     : [],
+    "repo-type"   : "git",
+    "repo-url"    : "git://github.com/snarkyboojum/Perl6-MIME-Base64.git"
+}
