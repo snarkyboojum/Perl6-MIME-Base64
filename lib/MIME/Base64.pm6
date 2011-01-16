@@ -1,4 +1,4 @@
-class MIME::Base64 {
+class MIME::Base64:auth<cpan:SNARKY>:ver<1.0> {
 
     # load the MIME Base64 Parrot library to do all the hard work for us
     pir::load_bytecode('MIME/Base64.pbc');
