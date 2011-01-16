@@ -1,9 +1,10 @@
 {
     "name"        : "MIME::Base64",
-    "version"     : "*",
+    "version"     : "1.0",
     "description" : "Encoding and decoding Base64 ASCII strings",
     "depends"     : [],
-    "author"      : "snarkyboojum",
+    "author"      : "Adrian White",
+    "authority"   : "cpan+SNARKY",
     "repo-type"   : "git",
     "repo-url"    : "git://github.com/snarkyboojum/Perl6-MIME-Base64.git"
 }
